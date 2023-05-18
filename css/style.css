@@ -87,7 +87,6 @@ body {
 	height: 17%;
 }
 
-
 .banner-content {
 	color: #42cc3e;
 	text-align: center;
@@ -239,6 +238,12 @@ body {
 /* Create two equal columns that sits next to each other */
 .column {
 	flex: 50%;
+}
+
+.column img {
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
 }
 
 .description {
@@ -393,7 +398,13 @@ body {
 .change img {
 	border-radius: 50%;
 	justify-content: center;
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
+	margin-top: 7%;
+
 }
+
 
 .right {
 	margin-left: 7%;
@@ -490,7 +501,7 @@ form.example input[type=text] {
 	width: 50%;
 	background: #f1f1f1;
 
-	
+
 }
 
 form.example button {
@@ -683,14 +694,9 @@ ul {
 
 .centered {
 	font-family: 'Times New Roman', Times, serif;
-	font-weight: 500;
+	font-weight: 300;
+	text-align: center;
 	font-size: larger;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	padding-bottom: 3%;
-	padding-top: 2%;
-	transform: translate(-50%, -50%);
 }
 
 .centered h1 {
@@ -701,5 +707,13 @@ ul {
 }
 
 input[type="text"] {
-    margin-top: 12px;
+	margin-top: 12px;
+}
+
+.background {
+	background: url('../images/tataplay.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: auto;
 }
