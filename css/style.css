@@ -393,6 +393,7 @@ body {
 .change img {
 	border-radius: 50%;
 	justify-content: center;
+	margin-top: 7%;
 }
 
 .right {
@@ -490,7 +491,7 @@ form.example input[type=text] {
 	width: 50%;
 	background: #f1f1f1;
 
-	
+
 }
 
 form.example button {
@@ -685,12 +686,9 @@ ul {
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: 500;
 	font-size: larger;
-	position: absolute;
-	top: 50%;
-	left: 50%;
 	padding-bottom: 3%;
 	padding-top: 2%;
-	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 .centered h1 {
@@ -701,5 +699,13 @@ ul {
 }
 
 input[type="text"] {
-    margin-top: 12px;
+	margin-top: 12px;
+}
+
+.background {
+	background: url('../images/tataplay.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: auto;
 }
